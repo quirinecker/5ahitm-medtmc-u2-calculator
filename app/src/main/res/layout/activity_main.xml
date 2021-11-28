@@ -37,122 +37,122 @@
             app:layout_constraintGuide_end="273dp" />
 
         <Button
-            android:id="@+id/button7"
+            android:id="@+id/numpad_plus"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:text="+"
             app:layout_constraintBottom_toTopOf="@+id/constraintLine2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/button9" />
+            app:layout_constraintStart_toEndOf="@+id/numpad_3" />
 
         <Button
-            android:id="@+id/button14"
+            android:id="@+id/numpad_4"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:text="4"
             app:layout_constraintBottom_toTopOf="@+id/constraintLine3"
-            app:layout_constraintEnd_toStartOf="@+id/button13"
+            app:layout_constraintEnd_toStartOf="@+id/numpad_5"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent" />
 
         <Button
-            android:id="@+id/button5"
+            android:id="@+id/numpad_1"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:text="1"
             app:layout_constraintBottom_toTopOf="@+id/constraintLine2"
-            app:layout_constraintEnd_toStartOf="@+id/button6"
+            app:layout_constraintEnd_toStartOf="@+id/numpad_2"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent" />
 
         <Button
-            android:id="@+id/button19"
+            android:id="@+id/numpad_multiply"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:text="x"
             app:layout_constraintBottom_toTopOf="@+id/constraintLine4"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/button20" />
+            app:layout_constraintStart_toEndOf="@+id/numpad_9" />
 
         <Button
-            android:id="@+id/button6"
+            android:id="@+id/numpad_2"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:text="2"
             app:layout_constraintBottom_toTopOf="@+id/constraintLine2"
-            app:layout_constraintEnd_toStartOf="@+id/button9"
+            app:layout_constraintEnd_toStartOf="@+id/numpad_3"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/button5" />
+            app:layout_constraintStart_toEndOf="@+id/numpad_1" />
 
         <Button
-            android:id="@+id/button20"
+            android:id="@+id/numpad_9"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:text="9"
             app:layout_constraintBottom_toTopOf="@+id/constraintLine4"
-            app:layout_constraintEnd_toStartOf="@+id/button19"
+            app:layout_constraintEnd_toStartOf="@+id/numpad_multiply"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/button18" />
+            app:layout_constraintStart_toEndOf="@+id/numpad_8" />
 
         <Button
-            android:id="@+id/button11"
+            android:id="@+id/numpad_point"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:text="."
             app:layout_constraintBottom_toTopOf="@+id/constraintLine1"
-            app:layout_constraintEnd_toStartOf="@+id/button12"
+            app:layout_constraintEnd_toStartOf="@+id/numpad_equals"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/button10" />
+            app:layout_constraintStart_toEndOf="@+id/numpad_0" />
 
         <Button
-            android:id="@+id/button25"
+            android:id="@+id/numpad_clear"
             android:layout_width="0dp"
             android:layout_height="80dp"
             android:text="clear"
             app:layout_constraintBottom_toTopOf="@+id/constraintLine5"
-            app:layout_constraintEnd_toEndOf="@+id/button20"
-            app:layout_constraintStart_toStartOf="@+id/button17" />
+            app:layout_constraintEnd_toEndOf="@+id/numpad_9"
+            app:layout_constraintStart_toStartOf="@+id/numpad_7" />
 
         <Button
-            android:id="@+id/button24"
+            android:id="@+id/numpad_divide"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:text="/"
             app:layout_constraintBottom_toTopOf="@+id/constraintLine5"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/button25" />
+            app:layout_constraintStart_toEndOf="@+id/numpad_clear" />
 
         <Button
-            android:id="@+id/button13"
+            android:id="@+id/numpad_5"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:text="5"
             app:layout_constraintBottom_toTopOf="@+id/constraintLine3"
-            app:layout_constraintEnd_toStartOf="@+id/button15"
+            app:layout_constraintEnd_toStartOf="@+id/numpad_6"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/button14" />
+            app:layout_constraintStart_toEndOf="@+id/numpad_4" />
 
         <Button
-            android:id="@+id/button15"
+            android:id="@+id/numpad_6"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:text="6"
             app:layout_constraintBottom_toTopOf="@+id/constraintLine3"
-            app:layout_constraintEnd_toStartOf="@+id/button16"
+            app:layout_constraintEnd_toStartOf="@+id/numpad_minus"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/button13" />
+            app:layout_constraintStart_toEndOf="@+id/numpad_5" />
 
         <Button
-            android:id="@+id/button10"
+            android:id="@+id/numpad_0"
             android:layout_width="0dp"
             android:layout_height="80dp"
             android:text="0"
             app:layout_constraintBottom_toTopOf="@+id/constraintLine1"
-            app:layout_constraintEnd_toEndOf="@+id/button6"
+            app:layout_constraintEnd_toEndOf="@+id/numpad_2"
             app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="@+id/button5" />
+            app:layout_constraintStart_toStartOf="@+id/numpad_1" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/constraintLine3"
@@ -169,52 +169,52 @@
             app:layout_constraintGuide_end="366dp" />
 
         <Button
-            android:id="@+id/button16"
+            android:id="@+id/numpad_minus"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:text="-"
             app:layout_constraintBottom_toTopOf="@+id/constraintLine3"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/button15" />
+            app:layout_constraintStart_toEndOf="@+id/numpad_6" />
 
         <Button
-            android:id="@+id/button18"
+            android:id="@+id/numpad_8"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:text="8"
             app:layout_constraintBottom_toTopOf="@+id/constraintLine4"
-            app:layout_constraintEnd_toStartOf="@+id/button20"
+            app:layout_constraintEnd_toStartOf="@+id/numpad_9"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/button17" />
+            app:layout_constraintStart_toEndOf="@+id/numpad_7" />
 
         <Button
-            android:id="@+id/button9"
+            android:id="@+id/numpad_3"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:text="3"
             app:layout_constraintBottom_toTopOf="@+id/constraintLine2"
-            app:layout_constraintEnd_toStartOf="@+id/button7"
+            app:layout_constraintEnd_toStartOf="@+id/numpad_plus"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/button6" />
+            app:layout_constraintStart_toEndOf="@+id/numpad_2" />
 
         <Button
-            android:id="@+id/button12"
+            android:id="@+id/numpad_equals"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:text="="
             app:layout_constraintBottom_toTopOf="@+id/constraintLine1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/button11" />
+            app:layout_constraintStart_toEndOf="@+id/numpad_point" />
 
         <Button
-            android:id="@+id/button17"
+            android:id="@+id/numpad_7"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:text="7"
             app:layout_constraintBottom_toTopOf="@+id/constraintLine4"
-            app:layout_constraintEnd_toStartOf="@+id/button18"
+            app:layout_constraintEnd_toStartOf="@+id/numpad_8"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>

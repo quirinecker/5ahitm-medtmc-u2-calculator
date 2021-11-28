@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Calculator</string>
+    <string name="calculation_display_value_default">%1$s%2$s</string>
 </resources>
